@@ -8,6 +8,5 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <p class="text-danger">Ciao</p>
 </body>
 </html>
