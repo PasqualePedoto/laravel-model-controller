@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    
+    {{-- HEADER --}}
+    @include('includes.header')
+
+    {{-- MAIN --}}
+    @yield('content')
+
+    {{-- FOOTER --}}
+    @include('includes.footer')
 </body>
 </html>
